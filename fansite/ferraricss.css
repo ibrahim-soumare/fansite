@@ -1,0 +1,181 @@
+/* Styles pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles pour l'en-tête et la navigation */
+header {
+    background-color: #ee5f1c;
+    color: #fff;
+    padding: 20px;
+}
+footer {
+    background-color: #ee5f1c;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    margin: 40px 0;
+    font-family: Bebas, sans-serif; 
+    color: #fff;
+    text-decoration: underline;
+}
+
+h2 {
+    text-align: left;
+    color: #fff;
+    font-family: Pacifico, sans-serif;
+    text-align: center; 
+    text-decoration: underline;
+} 
+h3 {
+    color: #fff;
+    font-family: Griffy, sans-serif;
+    text-align: left; 
+    font-size: 50px;
+    text-decoration: underline;
+ }
+
+ h4 {
+    color: #fff;
+    text-align: left; 
+    font-size: 30px;
+ }
+
+
+/* Styles pour la section avec l'image centrée */
+section {
+    text-align: center; /* Centre le contenu horizontalement */
+    padding: 20px;
+}
+
+.ok {
+    display: block;
+    margin: 0 auto; /* Centre l'image horizontalement */
+}
+
+
+
+.animated-image {
+    width: 500px; /* Ajustez la taille de l'image */
+    transition: transform 0.5s; /* Ajoute une transition douce de 0.5 seconde à la transformation */
+
+ 
+    transform: scale(1);
+}
+
+.animated-image:hover {
+   
+    transform: scale(1.5); 
+    
+}
+
+p {
+    color: white;
+    font-size: 18px; 
+    
+  
+} 
+
+@font-face {
+    font-family: 'Pacifico';
+    src: url(/Users/ibrah/Documents/fansite/style-ecriture/Pacifico/Pacifico-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Griffy';
+    src: url(/Users/ibrah/Documents/fansite/style-ecriture/Griffy/Griffy-Regular.ttf);
+}
+@font-face {
+    font-family: 'Bebas';
+    src: url(/Users/ibrah/Documents/fansite/style-ecriture/Bebas_Neue/BebasNeue-Regular.ttf);
+}
+@font-face {
+    font-family: 'teko';
+    src: url(/Users/ibrah/Documents/fansite/style-ecriture/Teko/Teko-VariableFont_wght.ttf);
+}
+
+
+
+
+hr {
+    color: #ee5f1c; /* Changez la couleur en fonction de vos préférences, #ff0000 représente le rouge */
+    background-color: #ee5f1c; /* Vous pouvez également définir la couleur d'arrière-plan si nécessaire */
+    height: 2px; /* La hauteur de la ligne */
+    border: none; /* Supprime le bord par défaut */
+}
+
+
+.montage {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.abc {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px; 
+    padding: 20px; 
+    text-align: center;
+}
+
+.souligne {
+    text-decoration: underline;
+}
+
+
+
+
+
+.table {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+   
+}
+
+.row {
+    display: table-row;
+}
+
+.cell {
+    display: table-cell;
+    border: 1px solid #ffffff;
+    padding: 10px;
+}
+
+td , th {
+     color: #ffffff}
+
+.TABLEAU {
+    width: 100%; /* Vous pouvez ajuster la largeur selon vos besoins */
+    text-align: center; /* Centre le contenu horizontalement */
+    
+}
+/*
+table {
+    display: inline-block; /* Permet de centrer le tableau */
+
+
+ 
